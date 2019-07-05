@@ -1,0 +1,100 @@
+
+*{
+  margin: 0;
+  padding: 0;   
+
+}
+#page-container {
+  position: relative;
+  min-height: 100vh;
+   background-color: #001d26;
+  
+}
+#content-wrap {
+  padding-bottom: 2.5rem;
+ padding-top: 200px;
+  
+  
+  /* Footer height */
+}
+
+
+
+
+.question{
+    background-color: #f2f2f2;
+    font-size: 18px;
+    width: 50%;
+    border-radius: 10px;
+    padding: 50px ;
+    margin-left: 22%;
+    margin-bottom: 50px;
+    text-align: center;
+
+}
+.bolding
+{
+    
+  font-weight: bold;  
+  font-size: 25px;  
+  background-color: silver;
+}
+input[type=number]{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  text-align: center;
+  border-radius: 4px;
+  
+  box-sizing: border-box;
+}
+input[type=number]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+input[type=submit] {
+  
+  
+  background-color: #0988ae;
+  color: white;
+  padding: 14px 20px;
+  margin-left: 22%;  
+  border: none;
+  width:57%;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+
+.chosses
+{
+       width: 40%;
+     
+      padding-top: 30px;
+      margin-left: 37%;
+}
+::-webkit-input-placeholder {
+   text-align: center;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   text-align: center;  
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   text-align: center;  
+}
+
+:-ms-input-placeholder {  
+   text-align: center; 
+}
+button {
+  font-size: inherit;
+  border: none;
+  background: #09d;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
